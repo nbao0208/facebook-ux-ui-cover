@@ -31,7 +31,7 @@
     gap: 10px;
 }
 .post-area{
-    width: 40%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -41,7 +41,7 @@
 .story-bar{
     flex: 0 0 auto;
     width: 100%;
-    height: 30%;
+    height: 35%;
     display: flex;
     flex-direction: row;
     gap: 2%;
@@ -72,6 +72,7 @@
     flex-direction: column;
     background-color: #FFFFFF;
     gap: 1%;
+    padding: 2%;
 }
 
 .share-post-content-area{
@@ -80,7 +81,7 @@
     height: 50%;
     display: flex;
     flex-direction: row;
-    gap: 10%;
+    gap: 2%;
     align-items: center;
 }
 
@@ -94,8 +95,12 @@
 }
 
 .tool-image{
+    width: 33%;
+    height: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .content-input-field{
@@ -119,22 +124,57 @@
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-    gap: 10%;
+    gap: 1%;
+    padding: 2%;
 }
 
 .avatar-username{
+    position: relative;
     flex:0 0 auto;
     width: 100%;
-    height: 15%;
+    height: 9%;
     display: flex;
     flex-direction: row;
     gap: 1%;
 }
 
+.extra-tool-in-user-post-area{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1%;
+    align-items: center;
+}
+
+.user-comment{
+    width: 100%;
+    height: 5%;
+    align-items: center;
+}
 .post-content{
     width: 100%;
     height: 75%;
     overflow-y: auto;
+}
+
+.emoji-area{
+    width: 25%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-emoji-comment-share-area{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    align-items: center;
 }
 
 .message-area{
