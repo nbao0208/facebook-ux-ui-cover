@@ -1,0 +1,246 @@
+.page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ECEFF6;
+    gap: 0;
+}
+
+.body{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+.tool-scroll-bar{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: auto;
+}
+
+.icon-label{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.post-area{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    overflow-y: auto;
+}
+.story-bar{
+    flex: 0 0 auto;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    overflow-x:auto;
+}
+
+.story{
+    /*abandon element from automatically elasticizes*/
+    flex:0 0 auto;
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+
+.story-avatar, .post-avatar, .sponsored-avatar, .user-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+}
+
+.share-post-area{
+    flex: 0 0 auto;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    gap: 1%;
+}
+
+.share-post-content-area{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+}
+
+.extra-tools-while-sharing-post-area{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tool-image{
+    display: flex;
+    flex-direction: row;
+}
+
+.content-input-field{
+    width: 60%;
+    height: 80%;
+    padding: 2%;
+}
+
+.user-post-area{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    overflow-y: auto;
+}
+.user-post{
+    flex: 0 0 auto;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    gap: 10%;
+}
+
+.avatar-username{
+    flex:0 0 auto;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+
+.post-content{
+    width: 100%;
+    height: 75%;
+    overflow-y: auto;
+}
+
+.message-area{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    overflow-y: auto;
+}
+
+.sponsored-area{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sponsored-content{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.sponsored-content-area{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    position: relative;
+    padding-top: 1%;
+}
+.sponsored-image{
+    width: 80%;
+    height: auto;
+}
+
+.birthday-area{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.birthday-content{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+}
+.birthday-content-area{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+
+.contact-area{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+}
+
+.user-contact-area{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    overflow-y: auto;
+}
+
+.contact-content{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    align-items: center;
+}
+
+.contact-content-extra-tool{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1%;
+    align-items: center;
+}
+.user-status{
+    flex: 0 0 auto;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+
+
+
+
